@@ -1,7 +1,7 @@
 # Quidology-Desktop
 ## Studying made easy.
 
-Quidology generates a realistic virtual test-taking environment, automatic assessment, and 4 different types of quiz questions available.
+Quidology generates a realistic virtual test-taking environment, automatic assessment, and has 4 different types of quiz questions available.
 
 ## How to Install
 1. Type in the following credentials
