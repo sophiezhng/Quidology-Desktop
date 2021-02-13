@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="430.0" prefWidth="700.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dashboard.Dashboard">
+   <children>
+      <Button mnemonicParsing="false" text="Button" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="20.0" />
+      <AnchorPane maxWidth="-Infinity" minWidth="-Infinity" prefHeight="519.0" prefWidth="181.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="664.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" layoutX="2.0" layoutY="25.0" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="150.0" text="[Username]" AnchorPane.topAnchor="25.0" />
+            <Button layoutY="111.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="151.0" text="Home" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+            <Button layoutX="1.0" layoutY="161.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" text="Past Tests" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+            <Button layoutX="1.0" layoutY="211.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="151.0" text="Settings" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+            <ToggleButton layoutY="261.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="152.0" text="ToggleButton" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="181.0" prefHeight="420.0" prefWidth="664.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="181.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="79.0" layoutY="31.0" prefHeight="18.0" prefWidth="158.0" text="Number of Quizzes Taken" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="20.0" />
+            <Label layoutX="379.0" layoutY="31.0" text="Average Percentage" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="20.0" />
+            <LineChart layoutX="304.0" layoutY="38.0" prefHeight="177.0" prefWidth="241.0" AnchorPane.rightAnchor="25.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </LineChart>
+            <ScrollPane layoutX="106.0" layoutY="164.0" opacity="0.0" prefHeight="171.0" prefWidth="513.0" AnchorPane.bottomAnchor="26.0" AnchorPane.rightAnchor="85.0">
+               <content>
+                  <VBox />
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

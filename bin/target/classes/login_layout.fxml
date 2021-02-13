@@ -1,0 +1,47 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Text?>
+<?import java.net.URL?>
+<BorderPane fx:id="borderPane" fx:controller="Login.AuthController" xmlns:fx="http://javafx.com/fxml">
+    <padding><Insets top="20" right="20" bottom="20" left="20"/></padding>
+    <center>
+        <HBox fx:id="hBox">
+            <ImageView fx:id="imageView">
+                <image>
+                    <Image url="/assets/quidology.png"/>
+                </image>
+            </ImageView>
+            <GridPane fx:id="loginGrid" alignment="center" hgap="10" vgap="10">
+                <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+                <Label fx:id="nameLabel" text="Username:"
+                       GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                <TextField fx:id="nameInput" promptText="Username"
+                           GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+                <Label fx:id="passLabel" text="Password:"
+                       GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+                <PasswordField fx:id="passInput" promptText="Password" minWidth="200"
+                               GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                <StackPane fx:id="infoStack" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <Circle fx:id="infoCircle" radius="8"/>
+                    <Text fx:id="i" text="i"/>
+                </StackPane>
+                <Button fx:id="loginButton" text="Login"
+                        GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+                <Button fx:id="signUpButton" text="Signup"
+                        GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+                <Button fx:id="viewAccounts" text="View All Accounts" GridPane.halignment="RIGHT"
+                        GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+            </GridPane>
+        </HBox>
+    </center>
+    <bottom>
+        <Button fx:id="helpButton" text="?" BorderPane.alignment="BOTTOM_RIGHT"/>
+    </bottom>
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+</BorderPane>

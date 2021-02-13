@@ -1,0 +1,53 @@
+.root{
+    -fx-background-color: #00529b;
+    -fx-font-size: 14px;
+    -fx-font-family: sans-serif;
+}
+.label{
+    -fx-text-fill: white;
+}
+.button{
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-border-color: white;
+}
+
+.button:hover {
+    -fx-text-fill: #00529b;
+    -fx-background-color:white;
+    -fx-background-radius:0;
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: grey;
+    -fx-background-radius:0;
+    -fx-border-color: grey;
+}
+
+.text-input:focused {
+    -fx-border-color: white;
+}
+
+#view-accounts {
+    -fx-border-color: transparent;
+}
+
+#view-accounts:hover {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-border-color: white;
+    -fx-border-width: 0 0 1 0;
+}
+
+#info-circle {
+    -fx-fill: transparent;
+    -fx-stroke: white;
+}
+
+#i-text {
+    -fx-fill: white;
+}
