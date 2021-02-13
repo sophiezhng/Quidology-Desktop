@@ -9,6 +9,12 @@ Quidology generates a realistic virtual test-taking environment, automatic asses
 
 [Mac Download](https://github.com/Quidology/Quidology-Desktop/releases/download/v1.0-alpha/Quidology-Mac.zip)
 
+Unzip the downloaded folder and follow the instructions for your operating system.
+
+For Windows: Double-click the `run.bat` file.
+
+For Mac or Linux: Use the Terminal and navigate to the downloaded directory `Quidology-Mac`. Run the command `sh run.sh` to run the application.
+
 1. Type in the following credentials
 
 Username | Password
