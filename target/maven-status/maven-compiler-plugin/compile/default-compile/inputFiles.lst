@@ -1,3 +1,7 @@
-/Users/sophie/IdeaProjects/Quidology/src/main/java/AuthController.java
+/Users/sophie/IdeaProjects/Quidology/src/main/java/Dashboard/DashboardController.java
+/Users/sophie/IdeaProjects/Quidology/src/main/java/Login/AuthController.java
+/Users/sophie/IdeaProjects/Quidology/src/main/java/Database/Database.java
+/Users/sophie/IdeaProjects/Quidology/src/main/java/TakeQuiz/QuizController.java
+/Users/sophie/IdeaProjects/Quidology/src/main/java/BCrypt/BCrypt.java
 /Users/sophie/IdeaProjects/Quidology/src/main/java/Main.java
-/Users/sophie/IdeaProjects/Quidology/src/main/java/Quidology/BCrypt.java
+/Users/sophie/IdeaProjects/Quidology/src/main/java/TakeQuiz/ReportController.java
