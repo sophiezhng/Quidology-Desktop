@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="borderPane" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TakeQuiz.ReportController">
+   <center>
+   </center>
+   <stylesheets>
+      <URL value="@style.css" />
+   </stylesheets>
+   <left>
+      <PieChart fx:id="pieChart" prefHeight="300.0" prefWidth="400.0" maxHeight="500.0" BorderPane.alignment="CENTER" />
+   </left>
+   <top>
+      <Label fx:id="markOutOfFive" prefHeight="116.0" prefWidth="170.0" text="Label" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>

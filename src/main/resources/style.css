@@ -1,0 +1,143 @@
+.root{
+    -fx-background-color: #00529b;
+    -fx-font-size: 14px;
+    -fx-font-family: Montserrat;
+}
+
+.label{
+    -fx-text-fill: white;
+}
+
+.password-field {
+    -fx-font-family: Helvetica;
+}
+
+.button, .toggle-button{
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-border-color: white;
+}
+
+.button:hover, .toggle-button:hover {
+    -fx-text-fill: #00529b;
+    -fx-background-color:white !important;
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: grey;
+    -fx-background-radius:0;
+    -fx-border-color: grey;
+}
+
+.text-field:focused {
+    -fx-border-color: white;
+}
+
+.context-menu {
+    -fx-text-fill: black !important;
+}
+
+.menu-item .label {
+    -fx-text-fill: black !important
+}
+
+#view-accounts {
+    -fx-border-color: transparent;
+}
+
+#view-accounts:hover {
+    -fx-text-fill: white;
+    -fx-background-color: transparent !important;
+    -fx-background-radius: 0;
+    -fx-border-color: white;
+    -fx-border-width: 0 0 1 0;
+    -fx-text-style: italic;
+}
+
+#info-circle {
+    -fx-fill: transparent;
+    -fx-stroke: white;
+}
+
+#i-text {
+    -fx-fill: white;
+}
+
+#help-button {
+    -fx-font-size: 20;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-pref-width: 20;
+    -fx-pref-height: 20;
+}
+
+.radio-button
+{
+    -fx-text-fill: white;
+}
+
+.radio-button .radio {
+    -fx-border-width: 1px;
+    -fx-border-color: white;
+    -fx-background-color: transparent;
+    -fx-background-image: null;
+    -fx-border-radius: 15px;
+    -fx-padding: 4px;
+}
+.radio-button .radio:selected {
+    -fx-background-color: transparent;
+    -fx-background-image: null;
+}
+.radio-button -radio:armed {
+    -fx-background-color: transparent;
+    -fx-background-image: null;
+}
+.radio-button -radio:determinate {
+    -fx-background-color: transparent;
+    -fx-background-image: null;
+}
+.radio-button -radio:indeterminate {
+    -fx-background-color: transparent;
+    -fx-background-image: null;
+}
+.radio-button .dot {
+    -fx-background-radius: 15px;
+    -fx-padding: 8px;
+}
+
+.radio-button:selected .radio .dot {
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+.radio-button:hover .radio .dot {
+    -fx-background-color: #ffffff;
+    -fx-background-insets: 0;
+}
+
+/* Colors of JavaFX pie chart slices. */
+.data0.chart-pie { -fx-pie-color: green; }
+.data1.chart-pie { -fx-pie-color: red; }
+
+.chart-legend { -fx-background-color: transparent; }
+
+.chart-pie-label-line {
+    -fx-stroke: white;
+    -fx-fill: white;
+}
+
+.chart-pie-label { /*this is what you need for labels*/
+    -fx-fill: white;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: #00529b;
+}
+
+.scroll-pane {
+   -fx-background-color: #00529b;
+}

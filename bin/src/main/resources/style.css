@@ -1,0 +1,76 @@
+.root{
+    -fx-background-color: #00529b;
+    -fx-font-size: 14px;
+    -fx-font-family: Montserrat;
+}
+
+.label{
+    -fx-text-fill: white;
+}
+
+.password-field {
+    -fx-font-family: Helvetica;
+}
+
+.button{
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-border-color: white;
+}
+
+.button:hover {
+    -fx-text-fill: #00529b;
+    -fx-background-color:white;
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: grey;
+    -fx-background-radius:0;
+    -fx-border-color: grey;
+}
+
+.text-field:focused {
+    -fx-border-color: white;
+}
+
+.context-menu {
+    -fx-text-fill: black !important;
+}
+
+.menu-item .label {
+    -fx-text-fill: black !important
+}
+
+#view-accounts {
+    -fx-border-color: transparent;
+}
+
+#view-accounts:hover {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-border-color: white;
+    -fx-border-width: 0 0 1 0;
+    -fx-text-style: italic;
+}
+
+#info-circle {
+    -fx-fill: transparent;
+    -fx-stroke: white;
+}
+
+#i-text {
+    -fx-fill: white;
+}
+
+#help-button {
+    -fx-font-size: 20;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-pref-width: 20;
+    -fx-pref-height: 20;
+}
