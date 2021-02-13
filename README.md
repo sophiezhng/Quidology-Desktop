@@ -6,9 +6,9 @@ Quidology generates a realistic virtual test-taking environment, automatic asses
 ## How to Install
 1. Type in the following credentials
 
-Username | test
+Username | Password
 |---|---|
-Password | Test123!
+test | Test123!
 
 2. Press the "Click to Start Quiz" button when you are ready for your 5 question FBLA Accounting I quiz.
 
