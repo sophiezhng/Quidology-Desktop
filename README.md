@@ -4,6 +4,10 @@
 Quidology generates a realistic virtual test-taking environment, automatic assessment, and has 4 different types of quiz questions available.
 
 ## How to Install
+
+[Windows Download](https://github.com/Quidology/Quidology-Desktop/releases/download/v1.0-alpha/Quidology-Windows.zip)
+[Mac Download](https://github.com/Quidology/Quidology-Desktop/releases/download/v1.0-alpha/Quidology-Mac.zip)
+
 1. Type in the following credentials
 
 Username | Password
