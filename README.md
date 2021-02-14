@@ -9,7 +9,7 @@ Quidology generates a realistic virtual test-taking environment, automatic asses
 
 [Mac Download](https://github.com/Quidology/Quidology-Desktop/releases/download/v1.0-alpha/Quidology-Mac.zip)
 
-Unzip the downloaded folder and follow the instructions for your operating system.
+Make sure you have Java installed for your system. Unzip the downloaded folder and follow the instructions for your operating system.
 
 For Windows: Double-click the `run.bat` file.
 
