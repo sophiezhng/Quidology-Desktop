@@ -9,7 +9,7 @@ Quidology generates a realistic virtual test-taking environment, automatic asses
 
 [Mac Download](https://github.com/Quidology/Quidology-Desktop/releases/download/v1.0-alpha/Quidology-Mac.zip)
 
-Make sure you have Java installed. Unzip the downloaded folder and follow the instructions for your operating system.
+Make sure you have the JRE already installed. Unzip the downloaded folder and follow the instructions for your operating system.
 
 For Windows: Double-click the `run.bat` file.
 
@@ -37,4 +37,4 @@ test | Test123!
 
 4. Each correct answer is worth 1 point. Note: Though matching questions though may have 4 statements, they are still only worth 1 point.
 
-5. Results will appear in the form of a fraction, pie chart, and a copy of all 5 question in a ScrollPane. Underneath each question is a check or cross, indicating the result. At the bottom right corner, there is a New QUiz button to generate a new 5 question quiz.
+5. Results will appear in the form of a fraction, pie chart, and a copy of all 5 question in a ScrollPane. Underneath each question is a check or cross, indicating the result. At the bottom right corner, there is a New Quiz button to generate a new 5 question quiz.
