@@ -5,9 +5,9 @@ Quidology generates a realistic virtual test-taking environment, automatic asses
 
 ## How to Install
 
-[Windows Download](https://github.com/sophiezhng/Quidology-Desktop/releases/download/v1.0-alpha/Quidology-Windows.zip)
+[Windows Download](https://github.com/sophiezhng/Quidology-Desktop/releases/latest/download/Quidology-Windows.zip)
 
-[Mac Download](https://github.com/sophiezhng/Quidology-Desktop/releases/download/v1.0-alpha/Quidology-Mac.zip)
+[Mac Download](https://github.com/sophiezhng/Quidology-Desktop/releases/latest/download/Quidology-Mac.zip)
 
 Make sure you have the JRE already installed. Unzip the downloaded folder and follow the instructions for your operating system.
 
