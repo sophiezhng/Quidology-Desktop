@@ -37,4 +37,4 @@ test | Test123!
 
 4. Each correct answer is worth 1 point. Note: Though matching questions though may have 4 statements, they are still only worth 1 point.
 
-5. Results will appear in the form of a fraction, pie chart, and a copy of all 5 question in a ScrollPane. Underneath each question is a check or cross, indicating the result. At the bottom right corner, there is a New Quiz button to generate a new 5 question quiz.
+5. Results will appear in the form of a fraction, pie chart, and a copy of all 5 question in a ScrollPane. Underneath each question is a check or cross, indicating the result. At the bottom left corner, there is a New Quiz button to generate a new 5 question quiz.
