@@ -1,5 +1,5 @@
 # Quidology-Desktop
-https://quidology.github.io/assets/img/logo.png
+![logo](https://quidology.github.io/assets/img/logo.png)
 
 ## Studying made easy.
 
@@ -21,7 +21,7 @@ For Mac or Linux: Use the Terminal and navigate to the downloaded directory `Qui
 
 1. Type in the following credentials
 
-https://quidology.github.io/assets/img/login-ui.png
+![Login Window](https://quidology.github.io/assets/img/login-ui.png)
 
 Username | Password
 |---|---|
