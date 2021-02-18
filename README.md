@@ -1,4 +1,6 @@
 # Quidology-Desktop
+https://quidology.github.io/assets/img/logo.png
+
 ## Studying made easy.
 
 Quidology generates a realistic virtual test-taking environment, automatic assessment, and has 4 different types of quiz questions available.
@@ -18,6 +20,8 @@ For Mac or Linux: Use the Terminal and navigate to the downloaded directory `Qui
 ## Instructions for Use
 
 1. Type in the following credentials
+
+https://quidology.github.io/assets/img/login-ui.png
 
 Username | Password
 |---|---|
